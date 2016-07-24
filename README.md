@@ -1,43 +1,22 @@
 # &lt;wdpr-wc-polymer-textbox&gt;
 
-> Extending Native Input Textbox using Polymer v1.0
+> Extending Native Input Text-box using Polymer v1.0
 
 
 
-## Install
+## Installation
 
-Install the component using [Bower](http://bower.io/):
+1. Clone and Install the package:
 
 ```
-bower install wdpr-wc-polymer-textbox --save
+	 git clone https://github.com/kumaran-is/wc-polymer-textbox.git
+
+   	 cd wdpr-wc-polymer-textbox
+	
 ```
 
 Or [download as ZIP](https://github.com/disney/wdpr-wc-polymer-textbox/archive/master.zip).
 
-## Usage
-
-1. Import polyfill:
-
-    ```html
-    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
-    ```
-
-2. Import custom element:
-
-    ```html
-    <link rel="import" href="bower_components/wdpr-wc-polymer-textbox/wdpr-wc-polymer-textbox.html">
-    ```
-
-3. Start using it!
-
-    ```html
-    <input type="text" is="wdpr-wc-polymer-textbox"  placeholder=" First Name*" >
-    ```
-
-
-## Development
-
-In order to run it locally you'll need to fetch some dependencies and a basic server setup.
 
 1. Install [bower](http://bower.io/) & [polyserve](https://npmjs.com/polyserve):
 
