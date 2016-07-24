@@ -8,14 +8,12 @@
     <!-- Imports polyfill -->
     <script src="../webcomponentsjs/webcomponents.js"></script>
     <!--  To enable Native Shadow DOM, set polymer.dom ='shadow' -->
-  <!--
     <script>
         window.Polymer = {
           dom: 'shadow',
           lazyRegister: true
         };
     </script>
- -->
 
     <!-- Imports custom element -->
     <link rel="import" href="wdpr-wc-polymer-textbox.html">
@@ -28,12 +26,7 @@
         }
     }
   </style>
-  <style >
-        [type="text"] {
-            border: 1px solid blue;
-        }
-
-  </style>
+  
 </head>
 <body>
 	<h2>Custom Input Text element as an extension of a native Input Text element.</h2>
@@ -41,7 +34,5 @@
     <input type="text" is="wdpr-wc-polymer-textbox"  placeholder=" First Name*" >
     <!-- Runs custom element -->    
   	<br><br>
-	<h2>Native Input Text element.</h2>
-    <input type="text" placeholder=" First Name*">    
 </body>
 </html>
