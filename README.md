@@ -1,4 +1,4 @@
-# &lt;wdpr-wc-polymer-textbox&gt;
+# &lt;wc-polymer-textbox&gt;
 
 > Extending Native Input Text-box using Polymer v1.0
 
@@ -11,11 +11,11 @@
 ```
 	 git clone https://github.com/kumaran-is/wc-polymer-textbox.git
 
-   	 cd wdpr-wc-polymer-textbox
+   	 cd wc-polymer-textbox
 	
 ```
 
-Or [download as ZIP](https://github.com/disney/wdpr-wc-polymer-textbox/archive/master.zip).
+Or [download as ZIP](https://github.com/disney/wc-polymer-textbox/archive/master.zip).
 
 
 1. Install [bower](http://bower.io/) & [polyserve](https://npmjs.com/polyserve):
@@ -30,7 +30,7 @@ Or [download as ZIP](https://github.com/disney/wdpr-wc-polymer-textbox/archive/m
     bower install
     ```
 
-3. Start development server and open [http://localhost:8080/components/wdpr-wc-polymer-textbox/](http://localhost:8080/components/wdpr-wc-polymer-textbox/).
+3. Start development server and open [http://localhost:8080/components/wc-polymer-textbox/](http://localhost:8080/components/wc-polymer-textbox/).
 
     ```
     $ polyserve

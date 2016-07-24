@@ -2,7 +2,7 @@
 <link rel="import" href="../polymer/polymer.html">
 
 <!-- Defines element markup -->
-<dom-module id="wdpr-wc-polymer-textbox">
+<dom-module id="wc-polymer-textbox">
     <template>
     <!-- Scoped styles  -->
         <style>
@@ -21,12 +21,12 @@
                 font-variant:normal;
                 font-weight:normal;
                 color:rgb(75, 75, 75);
-                @apply(--wdpr-wc-polymer-textbox);
+                @apply(--wc-polymer-textbox);
             }
             @media only screen and (max-width: 914px) {
                 :host[type="text"] {
                     max-width: 100%;
-                     @apply(--wdpr-wc-polymer-textbox-rwd);
+                     @apply(--wc-polymer-textbox-rwd);
                 }
             }
         </style>
@@ -36,7 +36,7 @@
 <!-- Registers custom element -->
 <script>
 Polymer({
-    is: 'wdpr-wc-polymer-textbox',
+    is: 'wc-polymer-textbox',
     extends: 'input',
 
     /* Fires when an instance of the element is created

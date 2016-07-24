@@ -1,9 +1,9 @@
 {
-    "name": "wdpr-wc-polymer-textbox",
+    "name": "wc-polymer-textbox",
     "version": "0.0.1",
     "description": "Custom Input box built using Polymer v1.0",
     "license": "MIT",
-    "main": "wdpr-wc-polymer-textbox.html",
+    "main": "wc-polymer-textbox.html",
     "keywords": [
         "polymer",
         "web-components"
