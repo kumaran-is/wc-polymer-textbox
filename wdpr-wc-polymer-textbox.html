@@ -1,0 +1,63 @@
+<!-- Imports polymer -->
+<link rel="import" href="../polymer/polymer.html">
+
+<!-- Defines element markup -->
+<dom-module id="wdpr-wc-polymer-textbox">
+    <template>
+    <!-- Scoped styles  -->
+        <style>
+            :host[type="text"] {
+                position : relative;
+                max-width: 530px; 
+                width: 100%;
+                padding: 12px 14px 12px 7px;
+                border: 1px solid red;
+                box-sizing: border-box;
+                border-radius: 6px;
+                line-height: normal;
+                font-family: AvenirLTStd-Roman;
+                font-size::host(x-foo:host)14px; 
+                font-style:normal;
+                font-variant:normal;
+                font-weight:normal;
+                color:rgb(75, 75, 75);
+                @apply(--wdpr-wc-polymer-textbox);
+            }
+            @media only screen and (max-width: 914px) {
+                :host[type="text"] {
+                    max-width: 100%;
+                     @apply(--wdpr-wc-polymer-textbox-rwd);
+                }
+            }
+        </style>
+   </template>
+</dom-module>
+
+<!-- Registers custom element -->
+<script>
+Polymer({
+    is: 'wdpr-wc-polymer-textbox',
+    extends: 'input',
+
+    /* Fires when an instance of the element is created
+     but before property values are set and local DOM is initialized 
+     Called only one time*/
+    created: function() {},
+
+    /* Fires when the local DOM has been fully prepared
+    Called after property values are set and local DOM is initialized
+    Called only one time */
+    ready: function() {},
+
+    /* Fires when the element was inserted into the document
+       Can be called multiple times during the lifetime of an element*/
+    attached: function() {},
+
+    /* Fires when the element was removed from the document
+    Can be called multiple times during the lifetime of an element */
+    detached: function() {},
+
+    // Fires when an attribute was added, removed, or updated
+    attributeChanged: function(attr, oldVal, newVal) {}
+});
+</script>

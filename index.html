@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>&lt;wdpr-wc-polymer-textbox&gt;</title>
+
+    <!-- Imports polyfill -->
+    <script src="../webcomponentsjs/webcomponents.js"></script>
+    <!--  To enable Native Shadow DOM, set polymer.dom ='shadow' -->
+  <!--
+    <script>
+        window.Polymer = {
+          dom: 'shadow',
+          lazyRegister: true
+        };
+    </script>
+ -->
+
+    <!-- Imports custom element -->
+    <link rel="import" href="wdpr-wc-polymer-textbox.html">
+ 
+    <!-- Overriding theme using  Custom CSS mixins & custom-style  to style shadow DOM -->
+    <style is="custom-style">
+    :root {
+        --wdpr-wc-polymer-textbox: {
+            border: 1px solid green;
+        }
+    }
+  </style>
+  <style >
+        [type="text"] {
+            border: 1px solid blue;
+        }
+
+  </style>
+</head>
+<body>
+	<h2>Custom Input Text element as an extension of a native Input Text element.</h2>
+    <!-- Runs custom element -->
+    <input type="text" is="wdpr-wc-polymer-textbox"  placeholder=" First Name*" >
+    <!-- Runs custom element -->    
+  	<br><br>
+	<h2>Native Input Text element.</h2>
+    <input type="text" placeholder=" First Name*">    
+</body>
+</html>
